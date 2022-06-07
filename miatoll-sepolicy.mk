@@ -6,4 +6,5 @@
 
 LOCAL_PATH := device/xiaomi/miatoll-sepolicy
 
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(LOCAL_PATH)/private
 BOARD_SEPOLICY_DIRS += $(LOCAL_PATH)/vendor
